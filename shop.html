@@ -1,0 +1,131 @@
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>chetra</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Days+One&amp;display=swap" rel="stylesheet">
+  <style>.logo { font-family: 'Days One', sans-serif; }</style>
+</head>
+<body>
+  <div class="site">
+    
+<header class="site-header">
+  <div class="menu-icon" id="menuToggle">☰</div>
+  <a href="index.html" class="logo">gwen</a>
+  <div class="cart-icon" id="cartToggle">
+    <svg fill="none" height="24" stroke="black" stroke-width="2" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="9" cy="21" r="1"></circle>
+    <circle cx="20" cy="21" r="1"></circle>
+    <path d="M1 1h4l2.68 13.39a1 1 0 0 0 1 .87h9.72a1 1 0 0 0 1-.76l3.38-12.24H6"></path>
+    </svg>
+  </div>
+</header>
+    <main class="container shop-page">
+      <h1 class="page-title">Shop</h1>
+      <div class="filters">
+        <div class="filter-left">
+          <label>Sort:
+            <select id="sortSelect">
+              <option value="featured">Featured</option>
+              <option value="price-asc">Price — Low to High</option>
+              <option value="price-desc">Price — High to Low</option>
+            </select>
+          </label>
+        </div>
+        <div class="filter-right">
+          <input id="searchInput" placeholder="Search products...">
+        </div>
+      </div>
+
+      <section id="shopGrid" class="products-grid">
+      <article class="product-card" data-id="gwn-01">
+        <a class="product-image" href="bag1.jpg" aria-label="bag1">
+          <img src="bag1.jpg"  alt="brown">
+        </a>
+        <div class="product-meta">
+          <div>
+            <div class="product-name">color brown</div>
+            <div class="product-price">$25</div>
+          </div>
+      </article>
+    
+      <article class="product-card" data-id="gwn-02">
+        <a class="product-image" href="product.html?id=gwn-02" aria-label="Luna Frame">
+          <img src="bag2.jpg"  alt="bag2">
+        </a>
+        <div class="product-meta">
+          <div>
+            <div class="product-name">color brown V2</div>
+            <div class="product-price">$25</div>
+          </div>
+      </article>
+    
+      <article class="product-card" data-id="bag">
+        <a class="product-image" href="bag3.jpg" aria-label="Solstice Shade">
+          <img src="bag3.jpg" alt="gray">
+        </a>
+        <div class="product-meta">
+          <div>
+            <div class="product-name">color gray</div>
+            <div class="product-price">$30</div>
+          </div>
+      </article>
+    
+      <article class="product-card" data-id="gwn-04">
+        <a class="product-image" href="bag4.jpg" aria-label="bag4">
+          <img src="bag4.jpg"  alt="Echo Rim">
+        </a>
+        <div class="product-meta">
+          <div>
+            <div class="product-name">color red</div>
+            <div class="product-price">$30</div>
+          </div>
+      </article>
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <h2 class="logo">bag shop</h2>
+      <p>All collectuion bag</p>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>SHOP ALL PRODUCTS</h4>
+        <a href="#">Best Sellers</a>
+        <a href="#">Digital Gift Card</a>
+      </div>
+  <div>
+        <h4>COLLABORATORS</h4>
+        <a href="#">Chhi Seanghai </a>
+        <a href="#">Lee Minyien </a>
+        <a href="#">Lingcheu</a>
+        <a href="#">Keo Maly</a>
+        <a href="#">Chetra </a>
+      </div>
+      <div>
+        <h4>ACCOUNT</h4>
+        <a href="#">FAQs</a>
+        <a href="#">Returns</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="#">Tariff Update</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="policy-links">
+      <a href="#">Site Credits</a>
+      <a href="#">Accessibility</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms &amp; Conditions</a>
+      <a href="#">Cookies settings</a>
+    </div>
+  </div>
+</footer>
+
+  </div>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+
+
+</body></html>
